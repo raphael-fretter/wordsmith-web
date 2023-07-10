@@ -43,7 +43,7 @@ jobs:
         with:
           # FIXME: change this to your repo
           #images: ghcr.io/<your-username>/<your-repo>
-          images: ghcr.io/bretfisher/github-actions-templates-docker-full
+          images: ghcr.io/raphael-fretter/wordsmith-web
           flavor: |
             latest=false
           # enable these tag generators (I tend to enable them all)
