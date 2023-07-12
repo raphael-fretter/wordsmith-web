@@ -6,6 +6,6 @@ on:
 jobs:
  scan:
    name: Scan
-   uses: raphael-fretter/actions/.github/workflows/reusable-trivy.yml@raphaelfretter-patch-1
+   uses: raphael-fretter/actions/.github/workflows/reusable-trivy.yml@main
    with:
       image: 'ghcr.io/raphael-fretter/wordsmith-web:latest'
