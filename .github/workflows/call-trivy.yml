@@ -7,3 +7,5 @@ jobs:
  scan:
    name: Scan
    uses: raphael-fretter/actions/.github/workflows/reusable-trivy.yml@raphaelfretter-patch-1
+   with:
+      image: 'ghcr.io/raphael-fretter/wordsmith-web:latest'
